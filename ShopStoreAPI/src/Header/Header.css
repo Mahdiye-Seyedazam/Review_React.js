@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 999;
+    position: relative;
+    margin: auto;
+    
+    
+}
+.Logo{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.basket-icon{
+    font-size: 1.2rem;
+    
+}
+
+.basket-icon:hover{
+    color: yellow;
+}
+
+.product-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 700px;
+    transition: 3s all;
+    
+}
+
+.product-title:hover{
+    color: yellow;
+    background-color: rgb(196, 51, 80);
+    font-size:1.5em ;
+    width: 250px;
+}
+.header-title{
+    font-size: 1.2em;
+    font-weight: 900;
+}
